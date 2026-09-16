@@ -1,0 +1,170 @@
+{
+  "common": {
+    "loading": "正在加载 G-Directory…"
+  },
+  "languages": {
+    "dialogTitle": "下载更多语言",
+    "closeTitle": "关闭 (Esc)",
+    "loading": "正在检查可用语言...",
+    "manifestFailed": "无法连接语言包服务器。请检查您的网络连接后重试。",
+    "allInstalled": "所有可用语言均已安装。",
+    "download": "下载",
+    "downloading": "正在下载...",
+    "installed": "已安装",
+    "downloadFailed": "下载失败",
+    "retry": "重试"
+  },
+  "titlebar": {
+    "compare": "对比",
+    "compareTitle": "高亮显示相邻窗格之间的差异",
+    "panes_one": "{{count}} 个窗格",
+    "panes_other": "{{count}} 个窗格",
+    "helpTitle": "帮助 (F1)"
+  },
+  "sidebar": {
+    "duplicateFinder": "🧹 重复文件查找器",
+    "quickAccess": "快速访问",
+    "manageQuickAccess": "管理快速访问",
+    "morePinned_one": "还有 {{count}} 项可用 — 点击 ⚙ 固定",
+    "morePinned_other": "还有 {{count}} 项可用 — 点击 ⚙ 固定",
+    "home": "🏠 主目录",
+    "desktop": "桌面",
+    "documents": "文档",
+    "downloads": "下载",
+    "pictures": "图片",
+    "music": "音乐",
+    "videos": "视频",
+    "drives": "驱动器"
+  },
+  "pane": {
+    "newTabTitle": "新建标签页",
+    "back": "后退",
+    "forward": "前进",
+    "upTitle": "上移一级文件夹（Backspace）",
+    "editPathTitle": "双击以编辑路径"
+  },
+  "fileList": {
+    "colName": "名称",
+    "colSize": "大小",
+    "colType": "类型",
+    "colModified": "修改日期",
+    "filterPlaceholder": "筛选...",
+    "noMatches": "无匹配项",
+    "emptyFolder": "空文件夹",
+    "folder": "文件夹",
+    "file": "文件",
+    "itemCount_one": "{{count}} 项",
+    "itemCount_other": "{{count}} 项",
+    "filteredOf": "（共 {{count}} 项）",
+    "selectedCount": "已选择 {{count}} 项（{{size}}）",
+    "diskFree": "剩余 {{free}}，共 {{total}}",
+    "confirmTrashOne": "确定要将 {{name}} 移到回收站吗？",
+    "confirmTrashMany": "确定要将 {{count}} 个项目移到回收站吗？",
+    "newFolderBase": "新建文件夹",
+    "menuOpen": "打开",
+    "menuCopy": "复制",
+    "menuCut": "剪切",
+    "menuRename": "重命名",
+    "menuShowInExplorer": "在资源管理器中显示",
+    "menuDelete": "删除",
+    "menuNewFolder": "新建文件夹",
+    "menuPaste": "粘贴",
+    "menuExportListing": "导出目录列表..."
+  },
+  "operationProgress": {
+    "copying": "正在复制",
+    "moving": "正在移动",
+    "filesProgress": "{{done}} / {{total}} 个文件",
+    "bytesProgress": "（{{done}} / {{total}}）"
+  },
+  "quickPreview": {
+    "loading": "加载中…",
+    "readError": "无法读取文件：{{error}}",
+    "truncated": "预览已截断——文件更大。",
+    "noPreviewZip": "暂不支持预览压缩包内的文件——请先将其复制出来。",
+    "noPreviewExt": "不支持预览 .{{ext}} 文件。"
+  },
+  "duplicates": {
+    "addFolder": "+ 添加文件夹",
+    "noFolders": "尚未选择文件夹。",
+    "minSize": "最小大小（KB）",
+    "extensions": "扩展名（用逗号分隔，留空表示全部）",
+    "extensionsPlaceholder": "jpg, png, mp4",
+    "startScan": "开始扫描",
+    "cancelScan": "取消扫描",
+    "listingFiles": "正在列出文件…",
+    "hashing": "正在处理 {{scanned}} / {{total}}",
+    "summaryPrefix": "{{groups}} 组重复项 · 已扫描 {{scanned}} 个文件 · 可释放 ",
+    "summarySuffix": "",
+    "deleteSelected": "删除所选（{{count}}）",
+    "moveSelected": "移动所选…",
+    "noDuplicates": "未发现重复文件。",
+    "confirmTrash_one": "确定要将 {{count}} 个文件移到回收站吗？",
+    "confirmTrash_other": "确定要将 {{count}} 个文件移到回收站吗？",
+    "keepNewest": "保留最新的",
+    "keepOldest": "保留最旧的",
+    "copiesEach": "{{count}} 份副本 · 每份 {{size}} · 浪费 {{waste}}"
+  },
+  "errorBoundary": {
+    "title": "G-Directory 遇到意外错误",
+    "detail": "详细信息已写入日志文件。请使用“帮助 > 打开日志文件夹”查看，然后重启应用。",
+    "reload": "重新加载"
+  },
+  "tutorial": {
+    "skip": "跳过",
+    "back": "返回",
+    "next": "下一步",
+    "getStarted": "开始使用",
+    "dontShowAgain": "不再显示",
+    "steps": {
+      "welcome": {
+        "title": "欢迎使用 G-Directory",
+        "body": "一款多窗格文件管理器，内置重复文件查找器、压缩包浏览和文件夹对比功能。这个快速导览将在一两分钟内介绍核心功能。"
+      },
+      "panes": {
+        "title": "多窗格浏览",
+        "body": "同时并排处理 2 到 4 个文件夹。在标题栏或“查看 > 布局”中选择窗格数量和布局，并使用 + 按钮在任意窗格中打开更多标签页。"
+      },
+      "navigation": {
+        "title": "导航与整理",
+        "body": "点击路径中的任意部分即可跳转，或双击路径直接输入。拖放文件即可在窗格之间复制或移动，右键菜单提供更多操作。"
+      },
+      "duplicates": {
+        "title": "查找重复文件",
+        "body": "重复文件查找器（侧边栏或 Ctrl+D）会扫描你选择的文件夹，将内容完全相同的文件分组，并让你保留最新或最旧的副本，清理其余文件。"
+      },
+      "archives": {
+        "title": "像文件夹一样打开压缩包",
+        "body": "打开 .zip 文件即可直接浏览，无需解压。里面的文件会像普通文件夹一样显示出来。"
+      },
+      "compare": {
+        "title": "一眼看出差异",
+        "body": "开启对比模式后，G-Directory 会高亮显示两个并排文件夹之间不同或缺失的文件——绿色表示唯一，琥珀色表示已更改。"
+      },
+      "customize": {
+        "title": "打造专属于你的界面",
+        "body": "在“查看”菜单中切换三种配色主题和五种语言。你的选择会在会话之间被记住。"
+      },
+      "ready": {
+        "title": "一切就绪",
+        "body": "随时按 F1 查看完整帮助指南和键盘快捷键。你可以随时通过“帮助 > 显示教程”重新观看此导览。"
+      }
+    }
+  },
+  "setup": {
+    "languageTitle": "选择语言",
+    "languageBody": "你可以随时在“查看 > 语言”中更改。",
+    "layoutTitle": "选择初始布局",
+    "layoutBody": "需要多少个窗格？如何排列？你可以随时在标题栏或“查看 > 布局”中更改。",
+    "layoutSideBySide": "并排显示",
+    "layoutStacked": "上下堆叠",
+    "layoutTop1Bottom2": "上 1 / 下 2",
+    "layoutTop2Bottom1": "上 2 / 下 1",
+    "layoutGrid2x2": "2 x 2 网格",
+    "quickAccessTitle": "选择快速访问文件夹",
+    "quickAccessBody": "选择默认打开的文件夹——它们会同时出现在你的窗格中，并固定在侧边栏。",
+    "quickAccessHint": "勾选的前 {{count}} 项（按此顺序）会直接在你的窗格中打开；所有勾选项也会固定在侧边栏中。",
+    "paneBadge": "窗格 {{n}}",
+    "finish": "完成设置"
+  }
+}

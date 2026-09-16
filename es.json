@@ -1,0 +1,170 @@
+{
+  "common": {
+    "loading": "Cargando G-Directory…"
+  },
+  "languages": {
+    "dialogTitle": "Descargar más idiomas",
+    "closeTitle": "Cerrar (Esc)",
+    "loading": "Comprobando idiomas disponibles...",
+    "manifestFailed": "No se pudo contactar con el servidor de paquetes de idioma. Comprueba tu conexión a internet e inténtalo de nuevo.",
+    "allInstalled": "Todos los idiomas disponibles ya están instalados.",
+    "download": "Descargar",
+    "downloading": "Descargando...",
+    "installed": "Instalado",
+    "downloadFailed": "Error al descargar",
+    "retry": "Reintentar"
+  },
+  "titlebar": {
+    "compare": "Comparar",
+    "compareTitle": "Resaltar diferencias entre paneles adyacentes",
+    "panes_one": "{{count}} panel",
+    "panes_other": "{{count}} paneles",
+    "helpTitle": "Ayuda (F1)"
+  },
+  "sidebar": {
+    "duplicateFinder": "🧹 Buscador de duplicados",
+    "quickAccess": "Acceso rápido",
+    "manageQuickAccess": "Administrar acceso rápido",
+    "morePinned_one": "{{count}} más disponible — haz clic en ⚙ para fijarlo",
+    "morePinned_other": "{{count}} más disponibles — haz clic en ⚙ para fijarlos",
+    "home": "🏠 Inicio",
+    "desktop": "Escritorio",
+    "documents": "Documentos",
+    "downloads": "Descargas",
+    "pictures": "Imágenes",
+    "music": "Música",
+    "videos": "Vídeos",
+    "drives": "Unidades"
+  },
+  "pane": {
+    "newTabTitle": "Nueva pestaña",
+    "back": "Atrás",
+    "forward": "Adelante",
+    "upTitle": "Subir una carpeta (Retroceso)",
+    "editPathTitle": "Doble clic para editar la ruta"
+  },
+  "fileList": {
+    "colName": "Nombre",
+    "colSize": "Tamaño",
+    "colType": "Tipo",
+    "colModified": "Modificado",
+    "filterPlaceholder": "Filtrar...",
+    "noMatches": "Sin coincidencias",
+    "emptyFolder": "Carpeta vacía",
+    "folder": "Carpeta",
+    "file": "Archivo",
+    "itemCount_one": "{{count}} elemento",
+    "itemCount_other": "{{count}} elementos",
+    "filteredOf": " de {{count}}",
+    "selectedCount": "{{count}} seleccionados ({{size}})",
+    "diskFree": "{{free}} libres de {{total}}",
+    "confirmTrashOne": "¿Enviar {{name}} a la papelera de reciclaje?",
+    "confirmTrashMany": "¿Enviar {{count}} elementos a la papelera de reciclaje?",
+    "newFolderBase": "Nueva carpeta",
+    "menuOpen": "Abrir",
+    "menuCopy": "Copiar",
+    "menuCut": "Cortar",
+    "menuRename": "Cambiar nombre",
+    "menuShowInExplorer": "Mostrar en el Explorador",
+    "menuDelete": "Eliminar",
+    "menuNewFolder": "Nueva carpeta",
+    "menuPaste": "Pegar",
+    "menuExportListing": "Exportar listado de carpeta..."
+  },
+  "operationProgress": {
+    "copying": "Copiando",
+    "moving": "Moviendo",
+    "filesProgress": "{{done}} de {{total}} archivos",
+    "bytesProgress": "({{done}} de {{total}})"
+  },
+  "quickPreview": {
+    "loading": "Cargando…",
+    "readError": "No se pudo leer el archivo: {{error}}",
+    "truncated": "Vista previa truncada: el archivo es más grande.",
+    "noPreviewZip": "La vista previa aún no está disponible para archivos dentro de un archivo comprimido; cópialo primero.",
+    "noPreviewExt": "No hay vista previa disponible para archivos .{{ext}}."
+  },
+  "duplicates": {
+    "addFolder": "+ Agregar carpeta",
+    "noFolders": "Aún no se han seleccionado carpetas.",
+    "minSize": "Tamaño mín. (KB)",
+    "extensions": "Extensiones (separadas por comas, vacío = todas)",
+    "extensionsPlaceholder": "jpg, png, mp4",
+    "startScan": "Iniciar escaneo",
+    "cancelScan": "Cancelar escaneo",
+    "listingFiles": "Listando archivos…",
+    "hashing": "Procesando {{scanned}} / {{total}}",
+    "summaryPrefix": "{{groups}} grupos de duplicados · {{scanned}} archivos escaneados · se podrían recuperar ",
+    "summarySuffix": "",
+    "deleteSelected": "Eliminar seleccionados ({{count}})",
+    "moveSelected": "Mover seleccionados…",
+    "noDuplicates": "No se encontraron duplicados.",
+    "confirmTrash_one": "¿Enviar {{count}} archivo a la papelera de reciclaje?",
+    "confirmTrash_other": "¿Enviar {{count}} archivos a la papelera de reciclaje?",
+    "keepNewest": "Conservar el más reciente",
+    "keepOldest": "Conservar el más antiguo",
+    "copiesEach": "{{count}} copias · {{size}} cada una · desperdicia {{waste}}"
+  },
+  "errorBoundary": {
+    "title": "G-Directory encontró un error inesperado",
+    "detail": "Los detalles se guardaron en el archivo de registro. Usa Ayuda > Abrir carpeta de registros para encontrarlo y luego reinicia la aplicación.",
+    "reload": "Recargar"
+  },
+  "tutorial": {
+    "skip": "Omitir",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "getStarted": "Comenzar",
+    "dontShowAgain": "No mostrar esto de nuevo",
+    "steps": {
+      "welcome": {
+        "title": "Bienvenido a G-Directory",
+        "body": "Un administrador de archivos multipanel con buscador de duplicados integrado, exploración de archivos comprimidos y comparación de carpetas. Este recorrido rápido cubre lo esencial en uno o dos minutos."
+      },
+      "panes": {
+        "title": "Navegación multipanel",
+        "body": "Trabaja con 2 a 4 carpetas lado a lado. Elige el número de paneles y el diseño desde la barra de título o Ver > Diseño, y abre pestañas adicionales en cualquier panel con el botón +."
+      },
+      "navigation": {
+        "title": "Navega y organiza",
+        "body": "Haz clic en cualquier segmento de la ruta para ir allí, o haz doble clic en la ruta para escribirla directamente. Arrastra y suelta archivos entre paneles para copiarlos o moverlos, y usa el menú contextual para más acciones."
+      },
+      "duplicates": {
+        "title": "Encuentra archivos duplicados",
+        "body": "El Buscador de duplicados (barra lateral o Ctrl+D) escanea las carpetas que elijas, agrupa archivos idénticos y te permite conservar la copia más nueva o más antigua y eliminar el resto."
+      },
+      "archives": {
+        "title": "Archivos comprimidos, abiertos como carpetas",
+        "body": "Abre un archivo .zip y explóralo directamente, sin necesidad de extraerlo. Los archivos dentro aparecen como en una carpeta normal."
+      },
+      "compare": {
+        "title": "Detecta las diferencias",
+        "body": "Activa el modo Comparar y G-Directory resalta los archivos que difieren o faltan entre dos carpetas mostradas lado a lado: verde para único, ámbar para modificado."
+      },
+      "customize": {
+        "title": "Personalízalo a tu gusto",
+        "body": "Cambia entre tres temas de color y cinco idiomas desde el menú Ver. Tus preferencias se recuerdan entre sesiones."
+      },
+      "ready": {
+        "title": "Todo listo",
+        "body": "Presiona F1 en cualquier momento para ver la guía completa y los atajos de teclado. Puedes repetir este recorrido desde Ayuda > Mostrar tutorial cuando quieras."
+      }
+    }
+  },
+  "setup": {
+    "languageTitle": "Elige tu idioma",
+    "languageBody": "Puedes cambiarlo en cualquier momento desde Ver > Idioma.",
+    "layoutTitle": "Elige un diseño inicial",
+    "layoutBody": "¿Cuántos paneles quieres y cómo deben organizarse? Puedes cambiarlo en cualquier momento desde la barra de título o Ver > Diseño.",
+    "layoutSideBySide": "Lado a lado",
+    "layoutStacked": "Apilado (Arriba / Abajo)",
+    "layoutTop1Bottom2": "1 Arriba / 2 Abajo",
+    "layoutTop2Bottom1": "2 Arriba / 1 Abajo",
+    "layoutGrid2x2": "Cuadrícula 2 x 2",
+    "quickAccessTitle": "Elige tus carpetas de acceso rápido",
+    "quickAccessBody": "Elige qué carpetas se abren de forma predeterminada, tanto en tus paneles como fijadas en la barra lateral.",
+    "quickAccessHint": "Las primeras {{count}} marcadas (en este orden) se abren directamente en tus paneles; todas las marcadas también quedan fijadas en la barra lateral.",
+    "paneBadge": "Panel {{n}}",
+    "finish": "Finalizar configuración"
+  }
+}
