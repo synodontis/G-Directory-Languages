@@ -21,6 +21,10 @@
     "panes_other": "{{count}} 个窗格",
     "helpTitle": "帮助 (F1)"
   },
+  "recentLocations": {
+    "title": "最近",
+    "empty": "暂无最近访问的位置"
+  },
   "sidebar": {
     "duplicateFinder": "🧹 重复文件查找器",
     "quickAccess": "快速访问",
@@ -34,6 +38,10 @@
     "pictures": "图片",
     "music": "音乐",
     "videos": "视频",
+    "pinnedFolders": "固定的文件夹",
+    "addPin": "固定一个文件夹...",
+    "removePin": "取消固定",
+    "noPinnedFolders": "还没有固定的文件夹 — 点击 + 添加",
     "drives": "驱动器"
   },
   "pane": {
@@ -75,7 +83,8 @@
     "copying": "正在复制",
     "moving": "正在移动",
     "filesProgress": "{{done}} / {{total}} 个文件",
-    "bytesProgress": "（{{done}} / {{total}}）"
+    "bytesProgress": "（{{done}} / {{total}}）",
+    "cancel": "取消"
   },
   "quickPreview": {
     "loading": "加载中…",

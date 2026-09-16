@@ -21,6 +21,10 @@
     "panes_other": "{{count}} paneles",
     "helpTitle": "Ayuda (F1)"
   },
+  "recentLocations": {
+    "title": "Recientes",
+    "empty": "Aún no hay ubicaciones recientes"
+  },
   "sidebar": {
     "duplicateFinder": "🧹 Buscador de duplicados",
     "quickAccess": "Acceso rápido",
@@ -34,6 +38,10 @@
     "pictures": "Imágenes",
     "music": "Música",
     "videos": "Vídeos",
+    "pinnedFolders": "Carpetas fijadas",
+    "addPin": "Fijar una carpeta...",
+    "removePin": "Dejar de fijar",
+    "noPinnedFolders": "Aún no hay carpetas fijadas — haz clic en + para añadir una",
     "drives": "Unidades"
   },
   "pane": {
@@ -75,7 +83,8 @@
     "copying": "Copiando",
     "moving": "Moviendo",
     "filesProgress": "{{done}} de {{total}} archivos",
-    "bytesProgress": "({{done}} de {{total}})"
+    "bytesProgress": "({{done}} de {{total}})",
+    "cancel": "Cancelar"
   },
   "quickPreview": {
     "loading": "Cargando…",

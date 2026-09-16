@@ -21,6 +21,10 @@
     "panes_other": "{{count}} पैनल",
     "helpTitle": "सहायता (F1)"
   },
+  "recentLocations": {
+    "title": "हाल ही में",
+    "empty": "अभी तक कोई हालिया स्थान नहीं"
+  },
   "sidebar": {
     "duplicateFinder": "🧹 डुप्लिकेट फ़ाइल खोजक",
     "quickAccess": "त्वरित पहुँच",
@@ -34,6 +38,10 @@
     "pictures": "चित्र",
     "music": "संगीत",
     "videos": "वीडियो",
+    "pinnedFolders": "पिन किए गए फ़ोल्डर",
+    "addPin": "एक फ़ोल्डर पिन करें...",
+    "removePin": "अनपिन करें",
+    "noPinnedFolders": "अभी तक कोई पिन किया गया फ़ोल्डर नहीं — जोड़ने के लिए + पर क्लिक करें",
     "drives": "ड्राइव"
   },
   "pane": {
@@ -75,7 +83,8 @@
     "copying": "कॉपी हो रहा है",
     "moving": "स्थानांतरित हो रहा है",
     "filesProgress": "{{total}} में से {{done}} फ़ाइलें",
-    "bytesProgress": "({{total}} में से {{done}})"
+    "bytesProgress": "({{total}} में से {{done}})",
+    "cancel": "रद्द करें"
   },
   "quickPreview": {
     "loading": "लोड हो रहा है…",
