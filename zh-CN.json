@@ -196,6 +196,29 @@
       }
     }
   },
+  "commandPalette": {
+    "title": "命令面板",
+    "placeholder": "输入命令...",
+    "noResults": "没有匹配的命令",
+    "newTab": "新建标签页",
+    "closeTab": "关闭标签页",
+    "toggleSidebar": "切换侧边栏",
+    "refresh": "刷新",
+    "undo": "撤销",
+    "selectAll": "全选",
+    "toggleHelp": "切换帮助",
+    "keyboardShortcuts": "键盘快捷键",
+    "showTutorial": "显示教程",
+    "checkForUpdates": "检查更新...",
+    "openLogsFolder": "打开日志文件夹",
+    "themeDark": "深色 — 深渊",
+    "themeMid": "中等 — 潟湖",
+    "themeLight": "浅色 — 礁石",
+    "panesPrefix": "窗格：{{label}}",
+    "layoutPrefix": "布局：{{label}}",
+    "themePrefix": "主题：{{label}}",
+    "languagePrefix": "语言：{{label}}"
+  },
   "setup": {
     "languageTitle": "选择语言",
     "languageBody": "你可以随时在“查看 > 语言”中更改。",

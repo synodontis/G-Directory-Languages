@@ -196,6 +196,29 @@
       }
     }
   },
+  "commandPalette": {
+    "title": "कमांड पैलेट",
+    "placeholder": "एक कमांड टाइप करें...",
+    "noResults": "कोई मेल खाता कमांड नहीं",
+    "newTab": "नया टैब",
+    "closeTab": "टैब बंद करें",
+    "toggleSidebar": "साइडबार टॉगल करें",
+    "refresh": "रीफ़्रेश करें",
+    "undo": "पूर्ववत करें",
+    "selectAll": "सभी चुनें",
+    "toggleHelp": "सहायता टॉगल करें",
+    "keyboardShortcuts": "कीबोर्ड शॉर्टकट",
+    "showTutorial": "ट्यूटोरियल दिखाएँ",
+    "checkForUpdates": "अपडेट जाँचें...",
+    "openLogsFolder": "लॉग फ़ोल्डर खोलें",
+    "themeDark": "डार्क — एबिसल",
+    "themeMid": "मिड — लगून",
+    "themeLight": "लाइट — रीफ",
+    "panesPrefix": "पैनल: {{label}}",
+    "layoutPrefix": "लेआउट: {{label}}",
+    "themePrefix": "थीम: {{label}}",
+    "languagePrefix": "भाषा: {{label}}"
+  },
   "setup": {
     "languageTitle": "अपनी भाषा चुनें",
     "languageBody": "आप इसे कभी भी View > Language से बदल सकते हैं।",

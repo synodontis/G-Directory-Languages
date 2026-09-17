@@ -196,6 +196,29 @@
       }
     }
   },
+  "commandPalette": {
+    "title": "Paleta de comandos",
+    "placeholder": "Escribe un comando...",
+    "noResults": "Ningún comando coincide",
+    "newTab": "Nueva pestaña",
+    "closeTab": "Cerrar pestaña",
+    "toggleSidebar": "Alternar barra lateral",
+    "refresh": "Actualizar",
+    "undo": "Deshacer",
+    "selectAll": "Seleccionar todo",
+    "toggleHelp": "Alternar ayuda",
+    "keyboardShortcuts": "Atajos de teclado",
+    "showTutorial": "Mostrar tutorial",
+    "checkForUpdates": "Buscar actualizaciones...",
+    "openLogsFolder": "Abrir carpeta de registros",
+    "themeDark": "Oscuro — Abisal",
+    "themeMid": "Medio — Laguna",
+    "themeLight": "Claro — Arrecife",
+    "panesPrefix": "Paneles: {{label}}",
+    "layoutPrefix": "Diseño: {{label}}",
+    "themePrefix": "Tema: {{label}}",
+    "languagePrefix": "Idioma: {{label}}"
+  },
   "setup": {
     "languageTitle": "Elige tu idioma",
     "languageBody": "Puedes cambiarlo en cualquier momento desde Ver > Idioma.",
